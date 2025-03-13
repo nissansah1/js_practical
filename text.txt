@@ -36,8 +36,6 @@ git branch -M main
 git remote add origin https://github.com/nissansah1/js_practical.git
 git add .
 git commit -m "first commit"
-git branch -M main
-
 git push -u origin main
 
 
@@ -45,6 +43,7 @@ git push -u origin main
 
 and then use this git command only
 git init
-git remote add origin https://github.com/nissansah1/js_practical.git
 git branch -M main
+git add .
+git commit -m "first commit"
 git push -u origin main
