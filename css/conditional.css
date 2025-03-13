@@ -1,0 +1,34 @@
+.age-group {
+    height: 16px;
+    width: 250px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+
+.child {
+    background-color: lightblue;
+}
+
+.young {
+    background-color: lightgreen;
+}
+
+.man {
+    background-color: lightyellow;
+}
+
+.parent {
+    background-color: lightcoral;
+}
+
+.old {
+    background-color: lightgray;
+}
+
+
+/* .age-group (Common Styling) It applies general styles (padding, margin, border, background color) to all <div>elements with the age-group class. .young,
+.man,
+etc. (Specific Styling) These classes override the background color for specific <div>elements based on their category. */

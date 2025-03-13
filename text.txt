@@ -1,0 +1,50 @@
+id mostly used in not usable time 
+
+but in company -- all are momstly use class 
+bcs all types of component accepted globally -common use of css and js 
+
+
+datatypes :- they are 7
+categories into primitive and non-primitive
+number
+
+syntax means rules (having certain step to get results )
+
+reading is the good habit for programmer - officail document of that learning language 
+
+
+prompt :- teach me new mothod,funvction or topic that not teach me from that video link syllabus 
+
+
+//use mdn to learn thing
+
+//while property give you value 
+but function/method can perform ceretain task
+
+in javascript you get surprised that many time you get onject datatype
+<serach in chatgpt>
+Conclusion
+✔ JavaScript treats almost everything as an object (except for primitives like number, string, boolean, undefined, bigint, and symbol).
+✔ This allows powerful flexibility but also some weird surprises! 🚀  
+
+
+
+
+only first  time to push  in git file 
+git init
+git branch -M main
+git remote add origin https://github.com/nissansah1/js_practical.git
+git add .
+git commit -m "first commit"
+git branch -M main
+
+git push -u origin main
+
+
+
+
+and then use this git command only
+git init
+git remote add origin https://github.com/nissansah1/js_practical.git
+git branch -M main
+git push -u origin main
