@@ -42,8 +42,11 @@ git push -u origin main
 
 
 and then use this git command only
+
+
+
 git init
 git branch -M main
 git add .
-git commit -m "first commit"
+git commit -m "second commit"
 git push -u origin main

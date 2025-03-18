@@ -37,15 +37,14 @@ for(let idx=0; idx<arr.length; idx++ ){
 }
 */
 
-
 //remember i=o ho toh , condition pe < yeh use karo , naaki <= yeh ....bcz array ka value --index upto (n-1) tak he hota hai
 for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);        //print all the arr value 
+  console.log(arr[i]); //print all the arr value
 }
 
 //to print /perform some task, to all the index of array then ,we can also use for of | for in loop
 for (let i of heroes) {
-    console.log(i);                  //yeha pe hum direct index dalke ,without arr[] , aaise diye ,hum har index ka value ,nikal sakte hai 
+  console.log(i); //yeha pe hum direct index dalke ,without arr[] , aaise diye ,hum har index ka value ,nikal sakte hai
 }
 
 /* for (let i of <array_var_name>){             //pattern observer
@@ -55,17 +54,14 @@ eg:-*/
 let cities = ["mumbai", "delhi", "gujarat", "UP", "MP"];
 
 for (let i of cities) {
-    console.log(i.toUpperCase());   //here , it perform task , to all the index  
+  console.log(i.toUpperCase()); //here , it perform task , to all the index
 }
-
-
 
 let cost_of_foods = [250, 645, 300, 900, 50];
 //remenber , in for of loop , valaue of array is store in i  , - mtlb rather than show index 0,1 , it directly assign value
 for (let i of cost_of_foods) {
-    console.log(i);                  // it print value , not index i=0,1 --mease direct value asign 
+  console.log(i); // it print value , not index i=0,1 --mease direct value asign
 }
-
 
 /*
 Let's Practice 
@@ -74,14 +70,12 @@ Find the average marks of the entire class.
 */
 
 let students = [85, 97, 44, 37, 76, 60];
-let sum = 0; //yaad rahe jaab bhi array ke liye koi var banarahe ho, to value declare karo 
+let sum = 0; //yaad rahe jaab bhi array ke liye koi var banarahe ho, to value declare karo
 for (let i of students) {
-    sum = sum + i;
+  sum = sum + i;
 }
-let avg = (sum / (students.length));
+let avg = sum / students.length;
 console.log("avg value of students mark is ", avg);
-
-
 
 /* 
 Let's Practice 
@@ -91,21 +85,22 @@ All items have an offer of 10% OFF on them. Change the array to store final pric
 
 let item = [250, 645, 350, 900, 50];
 for (let i = 0; i < item.length; i++) {
-    let discount = item[i] - (item[i] * 0.1);       //loop repeat , value reset bcz it initialize inside loop 
-    item[i] = discount;                             //after that it re-assign new vlaue ,to same index of the same array 
+  let discount = item[i] - item[i] * 0.1; //loop repeat , value reset bcz it initialize inside loop
+  item[i] = discount; //after that it re-assign new vlaue ,to same index of the same array
 }
-for (let i of item) {                                // now , using for llop to display the value 
-    console.log(i);
+for (let i of item) {
+  // now , using for llop to display the value
+  console.log(i);
 }
 
-
-// another method to solve the same rpoble using <for-of > loop 
+// another method to solve the same rpoble using <for-of > loop
 let items = [250, 645, 350, 900, 50];
-let i = 0;                          //initialize the value mannually in for-of loop
-for (let idx of items) {            //here is the condition --mtlb last taak chalega -- yehi condition hai 
-    let offers = idx - (idx * 0.1);
-    items[i] = offers;
-    i++;                           //update the initialize value 
+let i = 0; //initialize the value mannually in for-of loop
+for (let idx of items) {
+  //here is the condition --mtlb last taak chalega -- yehi condition hai
+  let offers = idx - idx * 0.1;
+  items[i] = offers;
+  i++; //update the initialize value
 }
 // directly print value by
-console.log(items);               // it print all the value inside array without iterate loop
+console.log(items); // it print all the value inside array without iterate loop
